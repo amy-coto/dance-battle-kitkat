@@ -1,0 +1,29 @@
+{
+    "name": "dance battle",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "servo": "*",
+        "ContinuousServo": "github:tinkertanker/pxt-continuous-servo#v0.0.6",
+        "motorbit": "github:tinkertanker/pxt-motorbit#v2.0.2",
+        "motobit": "github:sparkfun/pxt-moto-bit#v0.0.4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
